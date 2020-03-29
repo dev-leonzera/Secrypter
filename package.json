@@ -1,0 +1,30 @@
+{
+  "name": "secrypter",
+  "version": "1.0.0",
+  "description": "A app that generates passwords to use in your accounts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-leonzera/Secrypter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-leonzera/Secrypter/issues"
+  },
+  "homepage": "https://github.com/dev-leonzera/Secrypter#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "knex": "0.20.13",
+    "cors": "2.8.5",
+    "sqlite3": "4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.2"
+  }
+}
