@@ -1,7 +1,7 @@
 const express = require('express')
 
-const UserController = require('./controllers/UserController')
-const GeneratorController = require('./controllers/GeneratorController')
+const UserController = require('../controllers/UserController')
+const GeneratorController = require('../controllers/GeneratorController')
 const routes = express.Router()
 
 routes.get('/', (req, res) => {
