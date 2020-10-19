@@ -1,20 +1,19 @@
 {
-  "name": "scryptr",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "secrypter-web",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/server.js"
+    "dev": "vite",
+    "build": "vite build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "4.17.1"
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "axios": "^0.20.0",
+    "vue": "^3.0.0-rc.1"
   },
   "devDependencies": {
-    "nodemon": "2.0.4"
+    "vite": "^1.0.0-rc.1",
+    "@vue/compiler-sfc": "^3.0.0-rc.1"
   }
 }
