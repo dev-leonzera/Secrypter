@@ -1,39 +1,19 @@
 {
-  "name": "secrypter",
-  "version": "1.0.0",
-  "description": "A app that generates passwords to use in your accounts",
-  "main": "index.js",
+  "name": "secrypter-web",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index"
+    "dev": "vite",
+    "build": "vite build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dev-leonzera/Secrypter.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dev-leonzera/Secrypter/issues"
-  },
-  "homepage": "https://github.com/dev-leonzera/Secrypter#readme",
   "dependencies": {
-    "bcrypt": "5.0.0",
-    "celebrate": "12.1.2",
-    "cors": "2.8.5",
-    "cross-env": "7.0.2",
-    "dotenv": "8.2.0",
-    "express": "4.17.1",
-    "jsonwebtoken": "8.5.1",
-    "knex": "0.21.1",
-    "morgan": "1.10.0",
-    "mysql2": "2.1.0",
-    "objection": "2.2.1",
-    "pg": "8.2.1",
-    "sqlite3": "^5.0.0"
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "axios": "^0.20.0",
+    "vue": "^3.0.0-rc.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "vite": "^1.0.0-rc.1",
+    "@vue/compiler-sfc": "^3.0.0-rc.1"
   }
 }
