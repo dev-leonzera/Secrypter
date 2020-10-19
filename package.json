@@ -1,39 +1,20 @@
 {
-  "name": "secrypter",
+  "name": "scryptr",
   "version": "1.0.0",
-  "description": "A app that generates passwords to use in your accounts",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dev-leonzera/Secrypter.git"
+    "start": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dev-leonzera/Secrypter/issues"
-  },
-  "homepage": "https://github.com/dev-leonzera/Secrypter#readme",
   "dependencies": {
-    "bcrypt": "5.0.0",
-    "celebrate": "12.1.2",
-    "cors": "2.8.5",
-    "cross-env": "7.0.2",
-    "dotenv": "8.2.0",
-    "express": "4.17.1",
-    "jsonwebtoken": "8.5.1",
-    "knex": "0.21.1",
-    "morgan": "1.10.0",
-    "mysql2": "2.1.0",
-    "objection": "2.2.1",
-    "pg": "8.2.1",
-    "sqlite3": "^5.0.0"
+    "cors": "^2.8.5",
+    "express": "4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "2.0.4"
   }
 }
