@@ -2,13 +2,22 @@
     <h1>Secrypter</h1>
     <form @submit.prevent="gerarSenhaFinal">
       <div class="generator-container">
-        <div class="result-body">
+        <div class="generator-chars">
           <span id="desc">Escolha o tamanho da sua senha:</span>
           <input v-model="size" type="number" id="length" min='4' max='32'/>
           <br/>
-          <button type="submit">Gerar Senha</button>
         </div>
-        <div class="generator">
+        <div class="generator-type">
+          <span id="desc-type">Escolha o tipo da senha</span>
+          <input type="checkbox" id="option1" name="option1" value="Car">
+          <label class="generator-label" for="vehicle2">Somente números</label>
+          <input type="checkbox" id="option2" name="option2" value="Car">
+          <label class="generator-label" for="vehicle2">Somente letras</label>
+          <input type="checkbox" id="option3" name="option3" value="Car">
+          <label class="generator-label" for="vehicle2">Letras e números</label>
+        </div>
+        <button type="submit">Gerar Senha</button>
+        <div class="generator-result">
           <input type="text" id="passgen" :value="pass">
           <button @click="copiarSenha">Copiar</button>
         </div>
@@ -59,15 +68,19 @@ export default {
   body{
     background-color:#333;
   }
-
-  .result-body{
-    padding-bottom: 2rem;
+  .generator-result{
+    padding-top: 2rem;
   }
-
-  .result-body span{
-    padding-right: 10px;
+  .generator-container #length{
+    margin-left: 5px;
   }
+  .generator-container .generator-label, #desc-type{
+    color:white
 
+  }
+  .generator-container #desc-type{
+    margin-right: 5px;
+  }
   h1, #desc{
     color: white;
   }
