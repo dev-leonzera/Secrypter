@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: aqua;
+}
+
+h1, h3{
+  text-align: center;
+}
+
+.footer{
+  margin-top: 23%;
+}
+
+.title{
+  margin-bottom: 35px;
+}
+
+.btn-gerador{
+  background-color: aquamarine;
+  border-radius: 20px;
+  width: 90px;
+  height: 40px;
+}
+
+span{
+  margin-right: 15px;
+}
+
+.area{
+  width: 55%;
+  height: 50px;
+  margin: 30px auto 0px;
+  padding-right: 0%;
+}
+
+.area input{
+  width: 75%;
+  height: 46px;
+  text-align: center;
+  background: none;
+}
+
+.btn-copiar{
+  width: 65px;
+  height: 50px;
+  background-color: aquamarine;
+  border: none;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+
+.box{
+  background: #eee;
+  padding: 3rem;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 10rem;
+}
