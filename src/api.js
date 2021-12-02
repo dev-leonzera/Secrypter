@@ -2,7 +2,7 @@ import axios from 'axios'
 
 
 const api = axios.create({
-    baseURL: "api.github.com"
+    baseURL: "https://api-secrypter.herokuapp.com/"
 });
 
 
